@@ -27,12 +27,10 @@
     background-image: url(../img/banner.png);
     background-position: center;
     height: 750px;
-    padding: 20px;
+    padding: 30px;
     background-size: cover;
     display: flex;
     align-items: center;
-    position: absolute;
-    width: 100%;
 }
 .principal-texto{
     width: 40%;
@@ -40,9 +38,6 @@
     flex-direction: column;
     gap: 30px;
     color: #fff;
-    position: relative;
-    top:100px;
-    left: 30px;
 }
 .principal-texto h1{
     font-size: 60px;
@@ -56,4 +51,27 @@
     color: #fff;
     font-size: 16px;
     width: max-content;
+}
+.card{
+    width: 400px;
+    background-color: var(--cor-secundaria);
+}
+.card-img figure img{
+    width: 100%;
+}
+.card-conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 15px;
+    color: #fff;
+}
+.card-conteudo p{
+    text-align: justify;
+}
+.container-cards{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
 }
