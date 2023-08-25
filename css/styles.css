@@ -72,6 +72,26 @@
 }
 .container-cards{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 25px;
+}
+section{
+    padding: 20px 50px;
+}
+.secao-danca{
+    background-color: var(--cor-primaria);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.cabecalho-secao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.cabecalho-secao p {
+    text-align: justify;
 }
